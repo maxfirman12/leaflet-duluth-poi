@@ -1,0 +1,99 @@
+/* Basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f8fb;
+  color: #1f2933;
+}
+
+/* Top section of the page */
+header {
+  background-color: #174a7c;
+  color: white;
+  padding: 24px 36px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 36px;
+}
+
+header p {
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+/* Main map area */
+main {
+  padding: 20px;
+}
+
+/* The map needs a height or it will not show up */
+#map {
+  height: 650px;
+  width: 100%;
+  border: 3px solid #174a7c;
+  border-radius: 12px;
+}
+
+/* Popup image styling */
+.popup-image {
+  width: 100%;
+  max-width: 240px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+/* Popup title */
+.popup-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* Popup type/category label */
+.popup-type {
+  font-size: 13px;
+  font-weight: bold;
+  color: #174a7c;
+  margin-bottom: 6px;
+}
+
+/* Popup description text */
+.popup-description {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Footer at the bottom */
+footer {
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: #555;
+}
+/* Legend styling */
+.legend {
+  background-color: white;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 2px solid #174a7c;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  line-height: 1.2;
+}
+
+.legend h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #174a7c;
+}
+
+.legend p {
+  margin: 5px 0;
+  font-size: 14px;
+}

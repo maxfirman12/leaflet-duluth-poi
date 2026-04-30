@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Makes the page display correctly on different screen sizes -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Duluth Points of Interest</title>
+
+  <!-- Leaflet CSS. This makes the map display correctly. -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- My custom CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Duluth Points of Interest</h1>
+
+    <p>
+      Welcome to Duluth! This interactive map highlights local attractions for
+      visitors attending the 2026 FDI World Dental Congress. Click on each marker
+      to learn more about places to visit around the city.
+    </p>
+  </header>
+
+  <main>
+    <!-- This is where the Leaflet map will appear -->
+    <div id="map"></div>
+  </main>
+
+  <footer>
+    <p>Created for GIS 4533 Web Mapping</p>
+  </footer>
+
+  <!-- Leaflet JavaScript. This gives us the map tools. -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+  </script>
+
+  <!-- My custom JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
